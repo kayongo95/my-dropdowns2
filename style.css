@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100vh;
+}
+
+header {
+  background-color:darkslategrey;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo h1 {
+  border: 10px dotted lightslategrey;
+  padding: 5px;
+  border-radius: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.menu .bx{
+    font-size: 10px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: darkslategray;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.home:hover, .about:hover, .gallery:hover, .contact:hover{
+    background-color: lightslategrey;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.home, .about, .gallery, .contact {
+font-size: 12px;
+}
+
+.social-media{
+    padding: 10px;
+}
+
+.social-media .bx{
+    font-size: 15px;
+}
+
+.social-media ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+}
+
+.social-media ul li a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.bxl-twitter{
+    color: #1da1f2;
+}
+
+.bxl-instagram{
+    color: #c13584;
+}
+
+.bxl-whatsapp{
+    color: #25d366;
+}

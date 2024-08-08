@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="dropdowns2.js" defer></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>KN</h1>
+        <p>Kayongo Nicholas</p>
+      </div>
+
+      <div class="menu">
+        <div class="home" onclick="Menu()">
+          Home
+          <i class="bx bxs-down-arrow"></i>
+
+          <div class="dropdown-content" id="drop-menu">
+            <a href="#">Submenu 1</a>
+            <a href="#">Submenu 2</a>
+            <a href="#">Submenu 3</a>
+            <a href="#">Submenu 4</a>
+            <a href="#">Submenu 5</a>
+          </div>
+        </div>
+
+        <div class="about" onclick="About()">
+          About
+          <i class="bx bxs-down-arrow"></i>
+
+            <div class="dropdown-content" id="drop-menu1">
+              <a href="#">Submenu 1</a>
+              <a href="#">Submenu 2</a>
+              <a href="#">Submenu 3</a>
+            </div>
+        </div>
+
+        <div class="gallery" onclick="Gallery()">
+          Gallery
+          <i class="bx bxs-down-arrow"></i>
+
+            <div class="dropdown-content" id="drop-menu2">
+              <a href="#">Submenu 1</a>
+              <a href="#">Submenu 2</a>
+              <a href="#">Submenu 3</a>
+              <a href="#">Submenu 4</a>
+            </div>
+        </div>
+
+        <div class="contact" onclick="Contact()">
+          Contact
+          <i class="bx bxs-down-arrow"></i>
+
+          <div class="dropdown-content" id="drop-menu3">
+            <a href="#">Submenu 1</a>
+            <a href="#">Submenu 2</a>
+            <a href="#">Submenu 3</a>
+          </div>
+        </div>
+
+        <div class="social-media">
+          <ul>
+            <li>
+              <a href="#"><i class="bx bxl-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxl-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxl-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxl-whatsapp"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
